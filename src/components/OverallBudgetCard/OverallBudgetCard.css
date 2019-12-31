@@ -1,0 +1,48 @@
+.budgets-card {
+  background-color: white;
+  padding: 20px 30px;
+  padding-bottom: 0px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 3px;
+  overflow: hidden;
+  max-width: 600px;
+  margin: auto;
+}
+
+.budgets-card-month {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.budgets-card-bar-wrapper {
+  height: 20px;
+  background-color: #DDDDDD;
+  margin-top: 15px;
+}
+
+.budgets-card-bar-fill {
+  height: 20px;
+  width: 0px;
+  transition: width .5s;
+  display: inline-block;
+}
+
+.budgets-card-today {
+  position: relative;
+  top: -20px;
+  text-align: center;
+  width: 50px;
+}
+
+.budgets-card-today-line {
+  width: 0px;
+  height: 30px;
+  border: 1px solid grey;
+}
+
+.budgets-card-today-title {
+  position: relative;
+  left: -25px;
+  top: 10px;
+  font-size: 14px;
+  color: #999999;
+}

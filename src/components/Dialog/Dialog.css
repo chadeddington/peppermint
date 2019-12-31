@@ -1,0 +1,90 @@
+.overlay {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,.5);
+  z-index: 10;
+}
+
+.dialog-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.add-budget, .add-transaction, .add-income {
+  background-color: white;
+  border-radius: 8px;
+  width: 80%;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.add-budget {
+  height: 300px;
+}
+
+.add-transaction {
+  height: 260px;
+}
+
+.add-budget-header {
+  font-size: 28px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.dialog-wrapper input {
+  height: 50px;
+  padding: 0px 5px;
+  font-size: 18px;
+  background-color: #EEEEEE;
+  border: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.add-budget-category {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.add-transaction-category, .add-transaction-title {
+  width: 100%;
+}
+
+.add-budget-title {
+  width: 65%;
+}
+
+.income-title {
+  width: 100%;
+}
+
+.add-budget-amount {
+  float:right;
+  width: 30%;
+}
+
+input.add-budget-submit {
+  background-color: #3FA3EC;
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+input[disabled=true] {
+  opacity: .5;
+}
+
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+}

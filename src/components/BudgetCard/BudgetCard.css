@@ -1,0 +1,70 @@
+.budget-card {
+  padding: 20px 40px;
+  padding-left: 10px;
+  background-color: white;
+  margin-top: 1px;
+  box-shadow: rgba(16, 16, 16, 0.242) 0px 1px 1px;
+  position: relative;
+}
+
+.budget-card-remaining {
+  float: right;
+  color:#999999;
+  font-size: 14px;
+}
+
+.budget-card-bar-wrapper {
+  height: 20px;
+  background-color: #DDDDDD;
+  margin-top: 5px;
+}
+
+.budget-card-bar-fill {
+  height: 100%;
+  color: white;
+  display: flex;
+  width: 0px;
+  align-items: center;
+  transition: width .5s;
+}
+
+.budget-card-spent-of {
+  position: absolute;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.budget-trash-btn {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  background-color: #F24965;
+}
+
+.show-budget-trash {
+  right: 0px;
+  transition: right .25s;
+}
+
+.hide-budget-trash {
+  right: -45px;
+  transition: right .25s;
+}
+
+.budget-card-today {
+  position: relative;
+  top: -20px;
+  text-align: center;
+  width: 50px;
+  height: 20px;
+}
+
+.budget-card-today-line {
+  width: 0px;
+  height: 20px;
+  border: .5px solid grey;
+}

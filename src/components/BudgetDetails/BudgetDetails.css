@@ -1,0 +1,23 @@
+.budget-details {
+  background-color: white;
+  box-shadow: rgba(16, 16, 16, 0.242) 0px 1px 1px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.budget-details-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: auto;
+  box-sizing: border-box;
+  color: #676767;
+  padding: 5px 20px;
+}
+
+.budget-details-values {
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: black;
+}

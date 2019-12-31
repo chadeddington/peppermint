@@ -1,0 +1,30 @@
+.nav {
+  background-color: #333333;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  height: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+}
+
+.nav-back-arrow {
+  display: flex;
+  padding-left: 10px;
+}
+
+.previous-view-text {
+  margin-left: -10px;
+  margin-top: 2px;
+}
+
+.nav-view-title {
+  font-weight: bold;
+}
